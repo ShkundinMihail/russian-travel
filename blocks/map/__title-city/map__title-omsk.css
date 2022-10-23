@@ -1,0 +1,37 @@
+.map__title-omsk {
+    margin: 0;
+    object-fit: contain;
+    width: 35px;
+    height: 9px;
+    position: absolute;
+    top: 295px;
+    right: 235.5px;
+    z-index: 3;
+}
+
+@media(max-width:1279px) {
+    .map__title-omsk {
+        width: 33px;
+        height: 9px;
+        top: 278.22px;
+        right: 222.1px;
+    }
+}
+
+@media screen and (max-width:1023px) {
+    .map__title-omsk {
+        width: 27px;
+        height: 7px;
+        top: 230.25px;
+        right: 183.8px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .map__title-omsk {
+        width: 11.25px;
+        height: 2.83px;
+        top: 95.94px;
+        right: 76.58px;
+    }
+}

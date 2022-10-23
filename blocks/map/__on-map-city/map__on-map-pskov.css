@@ -1,0 +1,38 @@
+.map__on-map-pskov {
+    position: absolute;
+    z-index: 3;
+    top: 219.7px;
+    left: 37px;
+    width: 7px;
+    height: 9px;
+    object-fit: cover;
+
+}
+
+@media(max-width:1279px) {
+    .map__on-map-pskov {
+        width: 7px;
+        height: 8px;
+        top: 207.2px;
+        left: 34.89px;
+
+    }
+}
+
+@media screen and (max-width:1023px) {
+    .map__on-map-pskov {
+        width: 6px;
+        height: 7px;
+        top: 171.47px;
+        left: 28.88px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .map__on-map-pskov {
+        width: 2.27px;
+        height: 2.65px;
+        top: 71.45px;
+        left: 12.03px;
+    }
+}

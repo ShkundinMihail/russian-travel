@@ -1,0 +1,37 @@
+.map__title-perm {
+    margin: 0;
+    position: absolute;
+    object-fit: contain;
+    width: 42px;
+    height: 10px;
+    top: 225.82px;
+    right: 394px;
+    z-index: 3;
+}
+
+@media(max-width:1279px) {
+    .map__title-perm {
+        top: 211.97px;
+        right: 372.43px;
+        width: 39px;
+        height: 10px;
+    }
+}
+
+@media screen and (max-width:1023px) {
+    .map__title-perm {
+        width: 32px;
+        height: 7px;
+        top: 176.25px;
+        right: 308.21px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .map__title-perm {
+        width: 13.06px;
+        height: 2.76px;
+        top: 73.44px;
+        right: 128.42px;
+    }
+}

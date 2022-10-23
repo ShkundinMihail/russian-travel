@@ -1,0 +1,38 @@
+.map__on-map-manturovo {
+    object-fit: contain;
+    width: 8px;
+    height: 9px;
+    position: absolute;
+    margin: 0;
+    top: 234px;
+    left: 351.54px;
+    z-index: 3;
+}
+
+@media(max-width:1279px) {
+    .map__on-map-manturovo {
+        width: 7.5px;
+        height: 8.5px;
+        top: 220.69px;
+        left: 331.54px;
+    }
+
+}
+
+@media screen and (max-width:1023px) {
+    .map__on-map-manturovo {
+        width: 6px;
+        height: 7px;
+        top: 182.64px;
+        left: 274.38px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .map__on-map-manturovo {
+        width: 2.27px;
+        height: 2.65px;
+        top: 76.1px;
+        left: 114.32px;
+    }
+}

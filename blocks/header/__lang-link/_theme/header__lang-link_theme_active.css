@@ -1,0 +1,4 @@
+.header__lang-link_theme_active {
+   display: table;
+   border-bottom: solid 1px white;
+}

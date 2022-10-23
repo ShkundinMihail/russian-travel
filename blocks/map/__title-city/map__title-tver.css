@@ -1,0 +1,37 @@
+.map__title-tver {
+    object-fit: cover;
+    width: 38px;
+    height: 9px;
+    position: absolute;
+    margin: 0;
+    top: 267.16px;
+    left: 186.48px;
+    z-index: 3;
+}
+
+@media(max-width:1279px) {
+    .map__title-tver {
+        width: 35px;
+        height: 8px;
+        top: 251.95px;
+        left: 175.87px;
+    }
+}
+
+@media screen and (max-width:1023px) {
+    .map__title-tver {
+        width: 29px;
+        height: 7px;
+        top: 208.51px;
+        left: 145.55px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .map__title-tver {
+        width: 12.07px;
+        height: 2.76px;
+        top: 86.88px;
+        left: 60.64px;
+    }
+}

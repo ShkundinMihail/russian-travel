@@ -1,0 +1,37 @@
+.map__on-map-tver {
+    object-fit: contain;
+    position: absolute;
+    margin: 0;
+    top: 267.59px;
+    left: 231.04px;
+    z-index: 3;
+    width: 7px;
+    height: 9px;
+}
+
+@media(max-width:1279px) {
+    .map__on-map-tver {
+        width: 7.5px;
+        height: 8.5px;
+        top: 252.36px;
+        left: 217.89px;
+    }
+}
+
+@media screen and (max-width:1023px) {
+    .map__on-map-tver {
+        width: 6px;
+        height: 7px;
+        top: 208.85px;
+        left: 180.32px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .map__on-map-tver {
+        width: 2.27px;
+        height: 2.65px;
+        top: 87.02px;
+        left: 75.13px;
+    }
+}
