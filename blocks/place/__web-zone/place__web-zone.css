@@ -1,4 +1,4 @@
-.place__website {
+.place__web-zone {
     display: flex;
     flex-direction: column;
     justify-content: end;
@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width:767px) {
-    .place__website {
+    .place__web-zone {
         padding-left: 16px;
     }
  

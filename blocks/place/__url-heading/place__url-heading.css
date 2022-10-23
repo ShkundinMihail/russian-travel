@@ -2,7 +2,6 @@
     color: #AAAAAA;
     height: 12px;
     margin: 0;
-   /* padding-bottom: 12px;*/
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -11,7 +10,7 @@
 }
 
 @media screen and (max-width:1023px) {
-    /*.place__url-heading {
+    .place__url-heading {
         line-height: 12px;
-    }*/
+    }
 }
