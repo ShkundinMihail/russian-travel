@@ -1,6 +1,4 @@
 .photo-grid {
-    padding-left: 48px;
-    padding-right: 48px;
     box-sizing: content-box;
     display: grid;
     grid-template-columns: repeat(4, 284px);
@@ -27,8 +25,6 @@
         grid-auto-rows: 264px;
         grid-auto-columns: 352px;
         gap: 16px;
-        padding-left: 24px;
-        padding-right: 24px;
     }
 }
 
@@ -39,7 +35,5 @@
         grid-auto-rows: 216px;
         grid-auto-columns: 288px;
         gap: 12px;
-        padding-left: 16px;
-        padding-right: 16px;
     }
 }
