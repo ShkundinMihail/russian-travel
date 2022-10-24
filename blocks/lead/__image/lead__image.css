@@ -1,4 +1,4 @@
-.map {
+.lead__image {
     margin: 0;
     object-fit: cover;
     width: 984px;
@@ -7,21 +7,21 @@
 }
 
 @media(max-width:1279px) {
-    .map {
+    .lead__image {
         width: 928px;
         height: 580px;
     }
 }
 
 @media screen and (max-width:1023px) {
-    .map {
+    .lead__image {
         width: 768px;
         height: 480px;
     }
 }
 
 @media screen and (max-width:767px) {
-    .map {
+    .lead__image {
         width: 320px;
         height: 200px;
     }

@@ -6,13 +6,14 @@
     text-align: center;
     color: white;
     margin: 0;
-    width: 560px;
+    max-width: 560px;
+    width: 100%;
     text-decoration: none;
 }
 
 @media screen and (max-width:767px) {
     .cover__title {
-        width: 288px;
+        max-width: 288px;
         font-size: 32px;
         line-height: 35px;
     }

@@ -1,16 +1,15 @@
 .page {
     max-width: 1280px;
-    background: #2A2C2F;
+    background: #2a2c2f;
     margin: 0 auto;
-    font-family: 'Inter', Arial, 'Helvetica Neue', sans-serif;
+    font-family: "Inter", Arial, "Helvetica Neue", sans-serif;
     text-decoration: none;
     display: flex;
-    overflow: hidden;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /*overflow: hidden;*/
     padding-top: 28px;
-
 }
 
 @media (max-width: 1280px) {
@@ -19,13 +18,13 @@
     }
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width: 1024px) {
     .page {
         max-width: 768px;
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
     .page {
         max-width: 320px;
         padding-top: 16px;

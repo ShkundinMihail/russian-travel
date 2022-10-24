@@ -8,76 +8,24 @@
   </head>
   <body class="filling">
     <div class="page">
-      <section class="header">
+      <header class="header">
         <img class="header__logo" src="images/logo/header__logo.svg" alt="лого">
-        <div class="header__lang-links">
-          <a class="header__lang-link header__lang-link_theme_active" href="#">Ru</a>
-          <a class="header__lang-link" href="#">En</a>
-        </div>
-      </section>
+        <ul class="header__lang-links">
+          <li><a class="header__lang-link header__lang-link_active" href="#">Ru</a></li>
+          <li><a class="header__lang-link" href="#">En</a></li>
+        </ul>
+      </header>
       <main class="content">
         <section class="lead">
-          <h1 class="lead__title">Путешествия по России</h1>
-          <p class="lead__subtitle">Настоящая страна не в выпусках новостей,
-            а здесь.</p>
-          <div class="map">
-            <img class="map__image"
-              src="./images/kalegin-michail-179870-unsplash.svg" alt="карта">
-            <img class="map__route" src="./images/Vector2.8(Stroke).png"
-              alt="маршрут">
-            <img class="map__title-pskov" src="images/map__title-city/pskov.svg"
-              alt="город">
-            <img class="map__on-map-pskov" src="images/Ellipse(Stroke).svg"
-              alt="точка">
-            <img class="map__title-veliki-novgorod"
-              src="images/map__title-city/veliki-novgorod.svg" alt="город">
-            <img class="map__on-map-veliki-novgorod" 
-            src="images/Ellipse(Stroke).svg" alt="точка">
-            <img class="map__title-tver" src="images/map__title-city/tver.svg"
-              alt="город">
-            <img class="map__on-map-tver" src="images/Ellipse(Stroke).svg"
-              alt="точка">
-            <img class="map__title-yaroslavl"
-              src="images/map__title-city/yaroslavl.svg" alt="город">
-            <img class="map__on-map-yaroslavl" src="images/Ellipse(Stroke).svg"
-              alt="точка">
-            <img class="map__title-manturovo"
-              src="images/map__title-city/manturovo.svg" alt="город">
-            <img class="map__on-map-manturovo" src="images/Ellipse(Stroke).svg"
-              alt="точка">
-            <img class="map__title-kotelnich-1"
-              src="images/map__title-city/kotelnich-1.svg" alt="город">
-            <img class="map__on-map-kotelnich-1" 
-            src="images/Ellipse(Stroke).svg" alt="точка">
-            <img class="map__title-glazov"
-              src="images/map__title-city/glazov.svg" alt="город">
-            <img class="map__on-map-glazov" src="images/Ellipse(Stroke).svg"
-              alt="точка">
-            <img class="map__title-perm" src="images/map__title-city/perm.svg"
-              alt="город">
-            <img class="map__on-map-perm" src="images/Ellipse(Stroke).svg"
-              alt="точка">
-            <img class="map__title-tyumen"
-              src="images/map__title-city/tyumen.svg" alt="город">
-            <img class="map__on-map-tyumen" src="images/Ellipse(Stroke).svg"
-              alt="точка">
-            <img class="map__title-omsk" src="images/map__title-city/omsk.svg"
-              alt="город">
-            <img class="map__on-map-omsk" src="images/Ellipse(Stroke).svg"
-              alt="точка">
-            <img class="map__title-krasnoyarsk"
-              src="images/map__title-city/krasnoyarsk.svg" alt="город">
-            <img class="map__on-map-krasnoyarsk" 
-            src="images/Ellipse(Stroke).svg" alt="точка">
-            <img class="map__title-ulan-ude"
-              src="images/map__title-city/ulan-ude.svg" alt="город">
-            <img class="map__on-map-ulan-ude" src="images/Ellipse(Stroke).svg"
-              alt="точка">
-          </div>
-          <p class="lead__caption">ваша полка — верхняя</p>
+          <h1 class="lead__title">Путешествия по&nbsp;России</h1>
+          <p class="lead__subtitle">Настоящая&nbsp;страна&nbsp;не&nbsp;в&nbsp;выпусках
+            новостей,&nbsp;а&nbsp;здесь.</p>
+          <img class="lead__image" src="images/lead__image.png"
+            alt="маршрут">
+          <p class="lead__caption">ваша&nbsp;полка&nbsp;&mdash;&nbsp;верхняя</p>
         </section>
-        <section class="intro">
-          <h2 class="intro__title">Чего мы там не видели?</h2>
+        <section class="intro intro__position">
+          <h2 class="intro__title">Чего мы там не&nbsp;видели?</h2>
           <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают
             куда-нибудь поехать, но только 36% планируют провести отпуск в
             родной стране. Мол, чего мы тут, дома, не видели? На самом деле,
@@ -89,36 +37,51 @@
             проехала 20 тысяч километров по родной стране. Мы выбрали и описали
             некоторые интересные места, достойные вашего отпуска.</p>
           <ul class="intro__list">
-            <li>Часовых поясов 11</li>
-            <li>Объектов природного наследия ЮНЕСКО 12</li>
-            <li>Объектов культурного наследия ЮНЕСКО 16</li>
-            <li>Природных заповедников 105</li>
-            <li>Аэропортов 241</li>
+            <li><span class="lead__list_weight700">Часовых поясов</span> 11</li>
+            <li><span class="lead__list_weight700">Объектов природного наследия
+                ЮНЕСКО</span> 12</li>
+            <li><span class="lead__list_weight700">Объектов культурного наследия
+                ЮНЕСКО</span> 16</li>
+            <li><span class="lead__list_weight700">Природных заповедников</span>
+              105</li>
+            <li><span class="lead__list_weight700">Аэропортов</span> 241</li>
           </ul>
         </section>
         <section class="photo-grid">
-          <img class="photo-grid__element" src="images/photo-grid/__item.png" alt="фото">
-          <img class="photo-grid__element" src="images/photo-grid/__item(1).png" alt="фото">
-          <img class="photo-grid__element" src="images/photo-grid/__item(2).png" alt="фото">
-          <img class="photo-grid__element" src="images/photo-grid/__item(3).png" alt="фото">
-          <img class="photo-grid__element" src="images/photo-grid/__item(4).png" alt="фото">
-          <img class="photo-grid__element" src="images/photo-grid/__item(5).png" alt="фото">
-          <img class="photo-grid__element" src="images/photo-grid/__item(6).png" alt="фото">
-          <img class="photo-grid__element" src="images/photo-grid/__item(7).png" alt="фото">
-          <img class="photo-grid__element" src="images/photo-grid/__item(8).png" alt="фото">
-          <img class="photo-grid__element" src="images/photo-grid/__item(9).png" alt="фото">
-          <img class="photo-grid__element" src="images/photo-grid/__item(10).png" alt="фото">
-          <img class="photo-grid__element" src="images/photo-grid/__item(11).png" alt="фото">
+          <img class="photo-grid__element" src="images/photo-grid/__item.png"
+            alt="Вид из поезда">
+          <img class="photo-grid__element" src="images/photo-grid/__item(1).png"
+            alt="Заснеженный хребет">
+          <img class="photo-grid__element" src="images/photo-grid/__item(2).png"
+            alt="Овчарка на стоге сена">
+          <img class="photo-grid__element" src="images/photo-grid/__item(3).png"
+            alt="Туманный лес">
+          <img class="photo-grid__element" src="images/photo-grid/__item(4).png"
+            alt="Колесо на льду">
+          <img class="photo-grid__element" src="images/photo-grid/__item(5).png"
+            alt="Песчаный пляж на фоне гор">
+          <img class="photo-grid__element" src="images/photo-grid/__item(6).png"
+            alt="Горный массив">
+          <img class="photo-grid__element" src="images/photo-grid/__item(7).png"
+            alt="Дорожный знак на фоне нечто">
+          <img class="photo-grid__element" src="images/photo-grid/__item(8).png"
+            alt="Туманные возвышенности">
+          <img class="photo-grid__element" src="images/photo-grid/__item(9).png"
+            alt="Болото на фоне гор">
+          <img class="photo-grid__element"
+            src="images/photo-grid/__item(10).png" alt="Скалистый берег">
+          <img class="photo-grid__element"
+            src="images/photo-grid/__item(11).png" alt="Жерло вулкана">
         </section>
         <section class="places">
-          <div class="place">
+          <article class="place">
             <h3 class="place__title">Куршская коса</h3>
             <div class="place__web-zone">
-              <p class="place__url-heading" style="line-height: 12px;">URL</p>
+              <p class="place__url-heading place__url-heading_line-height">URL</p>
               <a class="place__link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
             </div>
             <img class="place__image" src="./images/place__image/park-kosa.png"
-              alt="фото">
+              alt="Куршская коса">
             <div class="place__paragraph">
               <p class="place__location-text">Здесь, посреди лесов и песчаных
                 дюн, вы сможете увидеть два
@@ -133,9 +96,10 @@
                 исключает суету, окуная в спокойствие природы и запах стального,
                 прохладного моря.</p>
             </div>
+          </article>
 
-          </div>
-          <div class="place">
+
+          <article class="place">
             <h3 class="place__title">Кольский</h3>
             <div class="place__web-zone">
               <p class="place__url-heading">URL</p>
@@ -145,7 +109,7 @@
                 Geographic</a>
             </div>
             <img class="place__image" src="images/place__image/kolskiy.png"
-              alt="фото">
+              alt="Кольский">
             <div class="place__paragraph">
               <p class="place__location-text">Почти весь полуостров находится за
                 Полярным кругом. Саамская тундра, от которой на юг —
@@ -161,8 +125,9 @@
                 сбываться с билетом
                 в Мурманск.</p>
             </div>
-          </div>
-          <div class="place">
+          </article>
+
+          <article class="place">
             <h3 class="place__title">Алтай</h3>
             <div class="place__web-zone">
               <p class="place__url-heading">URL</p>
@@ -171,7 +136,7 @@
                 target="_blank">Facebook</a>
             </div>
             <img class="place__image" src="images/place__image/altay.png"
-              alt="фото">
+              alt="Алтай">
             <div class="place__paragraph">
               <p class="place__location-text">Алтай — одно из красивейших мест в
                 России.
@@ -185,8 +150,9 @@
                 летают орлы, а на равнинах пасутся косули. И знаменитые манулы —
                 тоже обитатели Алтайского края.</p>
             </div>
-          </div>
-          <div class="place">
+          </article>
+
+          <article class="place">
             <h3 class="place__title">Зимний Байкал</h3>
             <div class="place__web-zone">
               <p class="place__url-heading">URL</p>
@@ -194,7 +160,7 @@
                 target="_blank">https://vk.com/baikalmile</a>
             </div>
             <img class="place__image"
-              src="images/place__image/winter-baikal.png" alt="фото">
+              src="images/place__image/winter-baikal.png" alt="Зимний Байкал">
             <div class="place__paragraph">
               <p class="place__location-text">Всем известен Байкал как
                 крупнейшее озеро
@@ -207,15 +173,16 @@
                 скорость на льду. В марте 2019 года на фестивале «Байкальская
                 миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
             </div>
-          </div>
-          <div class="place">
+          </article>
+
+          <article class="place">
             <h3 class="place__title">Карелия</h3>
             <div class="place__web-zone">
               <p class="place__url-heading">URL</p>
               <a class="place__link" href="http://vodlozero.ru" target="_blank">http://vodlozero.ru/</a>
             </div>
             <img class="place__image" src="images/place__image/karelia.png"
-              alt="фото">
+              alt="Карелия">
             <div class="place__paragraph">
               <p class="place__location-text">Сибирь заканчивается не на Урале,
                 а в Карелии: образующая тайгу сибирская лиственница не растёт
@@ -228,29 +195,34 @@
                 редких тропинках деревья
                 в паре метров от земли помечены медвежьими когтями. Чтобы все
                 знали, кто тут хозяин.</p>
-
             </div>
-          </div>
+          </article>
         </section>
         <section class="cover">
           <a class="cover__link"
             href="https://stampsy.com/na-elektrichkakh-do-baikala"
             target="_blank">
-            <h3 class="cover__title">До&nbsp;Байкала &laquo;на&nbsp;собаках&raquo;</h3>
+            <h3 class="cover__title">До&nbsp;Байкала
+              &laquo;на&nbsp;собаках&raquo;</h3>
             <p class="cover__subtitle">По&nbsp;мотивам учебной темы
-              о&nbsp;Транссибе&nbsp;&mdash; путешествие 
+              о&nbsp;Транссибе&nbsp;&mdash; путешествие
               от&nbsp;столицы до&nbsp;Байкала на&nbsp;электричках.</p>
           </a>
         </section>
       </main>
       <footer class="footer">
-        <a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
-        <a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
-        <a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
-        <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
-        <a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
-        <p class="footer__copyright">&#169;Князь тьмы 2022</p>
+        <nav class="footer__nav-footer">
+          <a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
+          <a class="footer__link" href="https://yandex.ru/pogoda"
+            target="_blank">Погода</a>
+          <a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
+          <a class="footer__link" href="https://calendar.yandex.ru"
+            target="_blank">Календарь</a>
+          <a class="footer__link" href="https://travel.yandex.ru"
+            target="_blank">Путешествия</a>
+        </nav>
+        <p class="footer__copyright">&#169;2020. Впишите своё имя</p>
       </footer>
     </div>
   </body>
-</html>       
+</html>

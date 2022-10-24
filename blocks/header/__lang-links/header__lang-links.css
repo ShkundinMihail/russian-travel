@@ -1,8 +1,9 @@
 .header__lang-links {
-    width: 77px;
-    height: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 18px 0 6px 0;
     display: flex;
-    justify-content: space-between;
+    gap: 18px;
     padding-top: 18px;
     padding-bottom: 6px;
 
@@ -12,6 +13,5 @@
     .header__lang-links {
         padding-top: 14px;
         padding-bottom: 8px;
-        width: 62px;
     }
 }

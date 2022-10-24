@@ -1,24 +1,26 @@
 .footer {
-    width: 1184px;
-    height: 18px;
-    display: flex;
-    flex-direction: row;
-    gap: 18px;
+    max-width: 1184px;
+    min-height: 18px;
     padding-top: 92px;
     padding-bottom: 24px;
+    display: flex;
+    gap: 533px;
+    flex-direction: row;
 
 }
 
 @media(max-width:1279px) {
     .footer {
-        width: 928px;
+        max-width: 928px;
+        gap: 277px;
     }
 }
 
 @media screen and (max-width:1023px) {
     .footer {
         padding-top: 88px;
-        width: 720px;
+        max-width: 720px;
+        gap: 69px;
     }
 }
 
@@ -27,8 +29,9 @@
         flex-direction: column;
         padding-top: 64px;
         padding-right: 102px;
-        width: 186px;
-        height: 310px;
-        gap: 32px;
+        max-width: 186px;
+        min-height: 310px;
+        gap: 48px;
+        
     }
 }
