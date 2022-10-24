@@ -22,11 +22,11 @@
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
 
-@import url(../blocks/intro/__position/intro__position.css);
+@import url(../blocks/intro/__location/intro__location.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
-@import url(../blocks/intro/__list/_weight700/lead__list_weight700.css);
+@import url(../blocks/intro/_bold/list_bold.css);
 
 @import url(../blocks/photo-grid/__element/photo-grid__element.css);
 
