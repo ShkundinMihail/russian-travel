@@ -2,14 +2,19 @@
     display: flex;
     flex-direction: column;
     justify-content: end;
-    gap: 12px;
+    gap: 5px;
 
+}
+
+@media screen and (max-width:1024px) {
+    .place__web-zone {
+        gap: 12px;
+    }
 }
 
 @media screen and (max-width:767px) {
     .place__web-zone {
         padding-left: 16px;
     }
- 
-    }
 
+}

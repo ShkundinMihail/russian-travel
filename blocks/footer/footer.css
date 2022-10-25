@@ -1,18 +1,17 @@
 .footer {
     max-width: 1184px;
+    width: 100%;
     min-height: 18px;
     padding-top: 92px;
     padding-bottom: 24px;
     display: flex;
-    gap: 533px;
     flex-direction: row;
-
+    justify-content: space-between;
 }
 
 @media(max-width:1279px) {
     .footer {
         max-width: 928px;
-        gap: 277px;
     }
 }
 
@@ -20,7 +19,6 @@
     .footer {
         padding-top: 88px;
         max-width: 720px;
-        gap: 69px;
     }
 }
 

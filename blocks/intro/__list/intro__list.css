@@ -8,3 +8,7 @@
     margin: 0;
     padding: 0%;
 }
+
+.intro__list span {
+    font-weight: 700;
+}
