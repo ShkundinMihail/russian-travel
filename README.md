@@ -14,6 +14,6 @@
 ресурсы данных населенных пунктов.  
 
 #### Ссылка на проект: 
-https://skhundinmichail.github.io/russian-travel/
+https://shkundinmihail.github.io/russian-travel/
 
 
